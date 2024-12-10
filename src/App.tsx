@@ -1,7 +1,12 @@
 import "./App.css";
+import { Toolbar } from "./components/Toolbar";
 
 function App() {
-  return <p className="text-red-500">Hello, world</p>;
+  return (
+    <div>
+      <Toolbar />
+    </div>
+  );
 }
 
 export default App;
