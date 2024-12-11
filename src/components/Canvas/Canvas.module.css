@@ -1,0 +1,13 @@
+.canvas {
+  --slate: theme(colors.slate.100);
+
+  background: conic-gradient(
+    #fff 90deg,
+    var(--slate) 90deg 180deg,
+    #fff 180deg 270deg,
+    var(--slate) 270deg
+  );
+  background-repeat: repeat;
+  background-size: 2em 2em;
+  background-position: top left;
+}
